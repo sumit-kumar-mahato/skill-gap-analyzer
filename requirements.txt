@@ -4,3 +4,8 @@ sentence-transformers
 faiss-cpu
 pypdf
 numpy
+langgraph
+langchain
+langchain-community
+tqdm
+scikit-learn

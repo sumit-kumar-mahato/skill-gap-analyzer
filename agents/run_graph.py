@@ -1,7 +1,8 @@
 # agents/run_graph.py
 
 from typing import Dict, Any
-from langgraph.graph import StateGraph, END
+from langgraph.graph import StateGraph
+from langgraph.constants import END
 
 from agents.lg_nodes.jd_node import jd_node
 from agents.lg_nodes.resume_node import resume_node
@@ -86,3 +87,4 @@ def run_skill_gap_graph(
     # ---------------- RUN GRAPH ----------------
     final_state = compiled_graph.invoke(initial_state)
     return final_state
+

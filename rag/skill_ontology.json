@@ -1,0 +1,36 @@
+{
+  "Machine Learning": [
+    "Linear Regression",
+    "Logistic Regression",
+    "Decision Trees",
+    "Random Forest",
+    "XGBoost",
+    "Model Evaluation"
+  ],
+  "Deep Learning": [
+    "Neural Networks",
+    "CNN",
+    "RNN",
+    "LSTM",
+    "Transformers"
+  ],
+  "NLP": [
+    "Tokenization",
+    "Text Classification",
+    "NER",
+    "Word Embeddings",
+    "Transformers"
+  ],
+  "Data Analysis": [
+    "Pandas",
+    "NumPy",
+    "EDA",
+    "Data Cleaning"
+  ],
+  "SQL": [
+    "Joins",
+    "Window Functions",
+    "Indexes",
+    "CTEs"
+  ]
+}

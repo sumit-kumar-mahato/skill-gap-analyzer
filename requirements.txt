@@ -4,8 +4,9 @@ sentence-transformers
 faiss-cpu
 pypdf
 numpy
-langgraph
+langgraph>=0.0.40
 langchain
 langchain-community
 tqdm
 scikit-learn
+

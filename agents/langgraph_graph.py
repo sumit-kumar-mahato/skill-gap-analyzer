@@ -1,6 +1,7 @@
 # agents/langgraph_graph.py
 
-from langgraph.graph import StateGraph, END
+from langgraph.graph import StateGraph
+from langgraph.constants import END
 
 from agents.langgraph_state import SkillGapState
 
@@ -82,3 +83,4 @@ def build_skill_gap_graph():
     # ==================================================
 
     return graph.compile()
+

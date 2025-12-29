@@ -214,10 +214,10 @@ if st.session_state.agent_state:
 
     # ---------------- CHATBOT ----------------
     st.markdown("---")
-    st.subheader("💬 Recruiter Query")
+    st.subheader("💬 Query Chatbot")
 
     user_question = st.text_input(
-        "Ask a recruiter-style question (e.g., Should this candidate be shortlisted?)"
+        "Ask a question"
     )
 
     if st.button("Ask AI") and user_question:
@@ -237,3 +237,4 @@ st.caption(
     "Built with Streamlit • LangGraph • LangChain • Groq LLM • "
     "Explainable Agentic AI • Human-in-the-Loop"
 )
+
